@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi"> 
+	<title>회원정보 NICE abc</title>
+	<link type="text/css" href="../css/common.css" rel="stylesheet">
+	<link type="text/css" href="../css/content.css" rel="stylesheet">
+	<script type="text/javascript" src="../js/ext/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../js/ext/jquery/jquery.placeholder-0.2.js"></script>
+	<script type="text/javascript" src="../js/ui_common.js"></script> <!-- 임시 js -->
+</head>
+<body>
+<!-- skipnavi -->
+<div id="skipnavi"> 
+   <a href="#fincent_contents">컨텐츠 바로가기 </a> 
+</div>
+<!-- //skipnavi -->  
+
+<div id="fincent_container">	
+	
+	<!-- popup -->
+	<div class="fincent_popup ui_popup"><!-- 팝업 ui_popup -->
+		<section class="popup_inner01 idpw_section">
+			<h1>아이디 찾기</h1>
+			<div class="popup_cont" >
+				<!-- tab -->
+				<ul class="tab_green ui_tab">
+					<li class="active"><button type="button" data-id="indv_tab"><span>개인회원</span></button></li>
+					<li><button type="button" data-id="entp_tab"><span>기업회원</span></button></li>
+				</ul>
+				<!-- tab_cont -->
+				<div class="ui_tab_cont">
+					<!-- 개인회원   -->
+					<div class="idpw_cont" id="indv_tab">
+						<!-- 휴대폰 인증 -->
+						<div class="idpw_find">
+							<strong>이름</strong>
+							<input type="text" id="" title="개인회원 아이디 찾기 이름" placeholder="이름">
+							<button type="button" class="btn_phone btn_primary_sgray"><span>휴대폰 인증</span></button>
+							<!-- <button type="button" class="btn_phone btn_primary_dgreen"><span>휴대폰 인증</span></button> -->
+							<ul class="list_hyphen dot">
+								<li>SNS로 회원가입 하신 경우 SNS 로그인을 이용해 주세요.</li>
+							</ul>
+						</div>
+						<!-- //휴대폰 인증 -->
+
+						<!-- 휴대폰 인증 후 -->
+						<!-- <div class="idpw_completion_cont">
+							<strong class="text_center" style="padding: 0;">NICEabc에 <span style="color: #1aa87a;">N</span>개의 아이디가 가입되어 있습니다.</strong>
+							<div class="box_gray">
+								홍길동회사(주)님의 아이디 입니다.
+								<ul style="display: inline;">
+									<li>test00@test.com</li>
+									<li>test01@test.com</li>
+								</ul>
+							</div>
+
+							<div class="pw_find">
+								<span style="display: block;">비밀번호를 기억하시나요?</span>
+								<button class="btn_primary_line_ddgray">비밀번호 찾기</button>
+								<button class="btn_primary_ddgray">로그인</button>
+							</div>
+						</div> -->
+						<!-- //휴대폰 인증 후 -->
+					</div>
+					
+					<!-- 기업회원   -->
+					<div class="idpw_cont" id="entp_tab">	
+						<!-- 아이디 찾기 전 -->
+						<div class="idpw_find">
+							<strong>기업명</strong>
+							<input type="text" id="" title="기업회원 아이디 찾기 기업명" placeholder="기업명">
+							<strong>사업자등록번호</strong>
+							<input type="text" id="" title="기업회원 아이디 찾기 사업자등록번호" placeholder="숫자만 입력해 주세요.">
+							<!-- <button type="button" class="btn_phone btn_primary_sgray"><span>아이디 찾기</span></button> -->
+							<button type="button" class="btn_phone btn_primary_dgreen"><span>아이디 찾기</span></button>
+						</div>
+						<!-- //아이디 찾기 전 -->
+
+						<!-- 아이디 찾기 후 -->
+						<!-- <div class="idpw_completion_cont">
+							<strong class="text_center" style="padding: 0;">NICEabc에 <span style="color: #1aa87a;">N</span>개의 아이디가 가입되어 있습니다.</strong>
+							<div class="box_gray">
+								홍길동회사(주)님의 아이디 입니다.
+								<ul style="display: inline;">
+									<li>test**@test.com</li>
+									<li>test**@test.com</li>
+									<li>test**@test.com</li>
+									<li>test**@test.com</li>
+								</ul>
+							</div>
+
+							<ul class="list_hyphen dot">
+								<li>정보보호를 위해 끝 2자리는 **표기 되었습니다.</li>
+								<li>전체 아이디 확인은 고객센터(02-6105-8000)로 문의해 주세요.</li>
+							</ul>
+
+							<div class="pw_find">
+								<span style="display: block;">비밀번호를 기억하시나요?</span>
+								<button class="btn_primary_line_ddgray">비밀번호 찾기</button>
+								<button class="btn_primary_ddgray">로그인</button>
+							</div>
+						</div> -->
+						<!-- //아이디 찾기 후 -->
+					</div>
+				</div>
+			</div>
+			<!-- 비밀번호 찾기 -->
+			<div class="idpw_btn_wrap">
+				<button class="btn_underline">비밀번호 찾기</button>
+			</div>
+			<!-- //비밀번호 찾기 -->
+			<div class="bottom_btn" style="position: relative; background-color: #fff;">
+				<button type="button" class="btn_primary_dgray" style="width: 100%;"><span>닫기</span></button>
+			</div>
+			<button type="button" class="btn_close_popup ui_close_popup"><span class="hide">창닫기</span></button><!-- 팝업닫기 ui_close_popup -->
+		</section>		
+	</div>
+	<!-- //popup -->
+
+	<button type="button" class="btn_primary_dgreen ui_open_popup w100p"><span>아이디 찾기</span></button><!-- 팝업열기 ui_open_popup -->
+</div>
+</body>
+</html>

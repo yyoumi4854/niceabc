@@ -1,0 +1,932 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi"> 
+	<title>NICE abc 투자자소개</title> <!-- 임시 title -->
+	<link type="text/css" href="../css/common.css" rel="stylesheet">
+	<link type="text/css" href="../css/main.css" rel="stylesheet">
+	<link type="text/css" href="../css/content.css" rel="stylesheet">
+	<script type="text/javascript" src="../js/ext/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../js/ext/jquery/jquery.placeholder-0.2.js"></script>
+	<script type="text/javascript" src="../js/ui_common.js"></script> <!-- 임시 공통 UI js -->
+	<script type="text/javascript" src="../js/page/WMAIN01M001.js"></script> <!-- 페이지별 js -->
+</head>
+<body>
+<!-- skipnavi -->
+<div id="skipnavi"> 
+   <a href="#fincent_contents">컨텐츠 바로가기 </a><!-- 로그인전 메인 바로가기: #fincent_contents -->
+</div>
+<!-- //skipnavi -->  
+
+<!-- popup -->
+<div class="fincent_popup">
+</div>
+<!-- //popup -->
+
+<div id="fincent_container" class="main_logout"><!-- 로그인전 메인: main_logout -->
+
+	<!-- HEADER -->
+	<header id="fincent_header" class="back_transparent"><!-- 로그인전 메인 헤더: back_transparent -->
+		<h1><a href="#"><span class="hide">NICEabc</span></a></h1>
+		<!-- mobile 전체메뉴 상단: PC 비노출 -->
+		<div class="upper_user_info">
+			<!-- 2019-06-17 -->
+			<button type="button" class="btn_home"><span class="hide">홈</span></button>
+			<button type="button" class="btn_logout_green"><span class="hide">로그아웃</span></button>
+			<!--// 2019-06-17 -->
+			<!-- 로그인 전 -->
+			<!-- 
+			<div class="user_start">
+				NICE abc로 새로운 P2P 시작하기
+				<button type="button" class="btn_green_login"><span>로그인</span></button>
+			</div>	-->		
+			<!--// 로그인 전 -->
+			<!-- 로그인 후 -->	
+			<div class="user_info">
+				<div class="nail"><img src="../img/@temp/@member_img.png" alt=""></div>
+				<div class="info">
+					<span class="name">매크로 안돌리는 회원</span>
+					<div class="wallet">
+						<span>Credit</span> <strong>1,000P</strong>
+						<span>쿠폰</span> <strong>5장</strong>
+					</div>
+				</div>
+			</div>
+			<!--// 로그인 후 -->
+			<!-- 2019-06-17 -->
+			<ul class="bottom_btn">
+				<li><button type="button" class="btn_chat"><span>챗봇</span></button></li>
+				<li><button type="button" class="btn_credit"><span>크레딧</span></button></li>
+				<li><button type="button" class="btn_push"><span>알림</span></button></li>
+				<li><button type="button" class="btn_setting"><span>설정</span></button></li>
+			</ul>	
+			<!--// 2019-06-17 -->
+			<button type="button" class="btn_close_allmenu"><span class="hide">전체메뉴 닫기</span></button>				
+		</div>
+		
+		<!-- 20190724수정 -->
+		<!--// mobile 전체메뉴 상단: PC 비노출 -->
+		<nav id="nav_gnb">
+			<div class="inner_wrap">
+				<!-- My page: PC 비노출 -->
+				<div class="gnb_depth1 ui_gnb_open pc_none">
+					<a href="#"><span>My page</span></a>
+					<div class="gnb_depth2">
+						<div class="inner_wrap">
+							<strong class="depth_title">My page</strong>
+							<ul>
+								<li><a href="#"><span>자금관리</span></a></li>
+								<li><a href="#"><span>투자관리</span></a></li>
+								<li><a href="#"><span>자동투자관리</span></a></li>
+								<!-- <li><a href="#"><span>연체관리</span></a></li> -->
+								<li><a href="#"><span>대출관리</span></a></li>
+								<!--<li><a href="#"><span>Credit</span></a></li> -->
+								<!--<li><a href="#"><span>쿠폰함</span></a></li> -->
+								<!--<li><a href="#"><span>회원정보</span></a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--// My page: PC 비노출 -->
+				<div class="gnb_depth1 ui_gnb_open">
+					<a href="#"><span>투자하기</span></a>
+					<div class="gnb_depth2 pc_none">
+						<div class="inner_wrap">
+							<strong class="depth_title">투자하기</strong>
+							<ul>
+								<li><a href="#"><span>투자하기</span></a></li>
+								<li><a href="#"><span>투자 예약현황</span></a></li>
+							</ul>					
+						</div>
+					</div>
+				</div>
+				<!--// 투자하기 -->		
+				<!-- 대출하기 -->		
+				<div class="gnb_depth1 ui_gnb_open">
+					<a href="#"><span>대출하기</span></a>
+					<div class="gnb_depth2 pc_none">
+						<div class="inner_wrap">
+							<strong class="depth_title">대출하기</strong>
+							<ul>
+								<li><a href="#"><span>할인율 조회</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>		
+				<!--// 대출하기 -->	
+				<!-- 관심기업 -->			
+				<div class="gnb_depth1 ui_gnb_open">
+					<a href="#"><span>관심기업</span></a>
+					<div class="gnb_depth2 pc_none">
+						<div class="inner_wrap">
+							<strong class="depth_title">관심기업</strong>
+							<ul>
+								<li><a href="#"><span>Timeline</span></a></li>
+								<li><a href="#"><span>평판등록</span></a></li>
+								<li><a href="#"><span>관심기업발굴</span></a></li>
+								<li><a href="#"><span>관심기업관리</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>		
+				<!--// 관심기업 -->			
+				<!-- 고객지원 -->	
+				<div class="gnb_depth1 ui_gnb_open">
+					<a href="#"><span>고객지원</span></a>					
+					<div class="gnb_depth2 pc_none">
+						<div class="inner_wrap">
+							<strong class="depth_title">고객지원</strong>
+							<ul>
+								<li><a href="#"><span>서비스안내</span></a></li>
+								<li><a href="#"><span>공지사항</span></a></li>
+								<li><a href="#"><span>News</span></a></li>
+								<li><a href="#"><span>Event</span></a></li>
+								<li><a href="#"><span>FAQ</span></a></li>
+								<li><a href="#"><span>QnA</span></a></li>
+								<li><a href="#"><span>인증서복사</span></a></li>
+							</ul>
+			
+						</div>
+					</div>
+				</div>	
+				<!--// 고객지원 -->	
+				<!-- 회사소개 -->				
+				<div class="gnb_depth1 ui_gnb_open">
+					<a href="#"><span>회사소개</span></a>
+					<div class="gnb_depth2 pc_none">
+						<div class="inner_wrap">
+							<strong class="depth_title">회사소개</strong>
+							<ul>
+								<li><a href="#"><span>그룹소개</span></a></li>
+								<li><a href="#"><span>서비스소개</span></a></li>
+								<li><a href="#"><span>Vision</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+				<!--// 회사소개 -->
+				<!-- 마이페이지 -->				
+				<div class="gnb_depth1 ui_gnb_open m_none">
+					<a href="#"><span>My page</span></a>
+				</div>	
+				<!--// 마이페이지 -->
+				<!-- GNB: 스크롤 후 -->
+				<div class="gnb_login">
+					<div class="inner_wrap">
+						<ul class="gnb_login_depth">
+							<li>
+								<ul>
+									<li><a href="#"><span>투자하기</span></a></li>
+									<li><a href="#"><span>투자 예약현황</span></a></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><a href="#"><span>할인율 조회</span></a></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><a href="#"><span>Timeline</span></a></li>
+									<li><a href="#"><span>평판등록</span></a></li>
+									<li><a href="#"><span>관심기업발굴</span></a></li>
+									<li><a href="#"><span>관심기업관리</span></a></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><a href="#"><span>서비스안내</span></a></li>
+									<li><a href="#"><span>공지사항</span></a></li>
+									<li><a href="#"><span>News</span></a></li>
+									<li><a href="#"><span>Event</span></a></li>
+									<li><a href="#"><span>FAQ</span></a></li>
+									<li><a href="#"><span>QnA</span></a></li>
+									<li><a href="#"><span>인증서복사</span></a></li>
+								</ul>
+							</li>
+							<li>			
+								<ul>
+									<li><a href="#"><span>그룹소개</span></a></li>
+									<li><a href="#"><span>서비스소개</span></a></li>
+									<li><a href="#"><span>Vision</span></a></li>
+								</ul>
+							</li>
+							<li>		
+								<ul>
+									<li><a href="#"><span>자금관리</span></a></li>
+									<li><a href="#"><span>투자관리</span></a></li>
+									<li><a href="#"><span>자동투자관리</span></a></li>
+									<li><a href="#"><span>대출관리</span></a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="login_inner_box">
+							<input type="text" id="user_id02" title="아이디(이메일)" placeholder="아이디 (이메일) 비밀번호">
+							<input type="password" id="user_pw02" title="비밀번호" placeholder="비밀번호">
+							<!-- 비밀번호 입력 5회 오류시 비노출 -->
+							<input type="checkbox" id="check_id"><label for="check_id"><span>자동로그인</span></label>
+							<div class="btns">
+								<button type="button" class="btn_primary_green btn_m"><span>로그인</span></button>
+								<button type="button" class="btn_primary_gray btn_m"><span>회원가입 </span></button>
+							</div>
+							<div class="search_user">
+								<a href="#"><span>아이디찾기</span></a><a href="#"><span>비밀번호찾기</span></a>
+							</div>
+							<div class="btn_sns">
+								<button type="button" class="btn_naver"><span class="hide">Naver</span></button>
+								<button type="button" class="btn_kakao"><span class="hide">kakao talk</span></button>
+								<button type="button" class="btn_facebook"><span class="hide">facebook</span></button>
+							</div>
+							<!--// 비밀번호 입력 5회 오류시 비노출 -->
+							<!-- 비밀번호 입력 5회 오류 -->
+							<!-- 
+							<div class="bottom_captcha">
+								<span class="notify">자동입력방지 문자를 입력해 주세요.</span>
+								<div class="info_captcha">
+									<span class="captcha"><img src="../img/@temp/@captcha.gif" alt=""></span>
+									<button type="button"><span>새로고침</span></button>
+									<button type="button" class="mgb0"><span>음성듣기</span></button>
+								</div>
+								<input type="text" id="captcha01" title="캡차" placeholder="자동입력 방지 문자">
+								<button type="button" class="btn_primary_green btn_m w100p"><span>로그인</span></button> 
+							</div> -->
+							<!--// 비밀번호 입력 5회 오류 -->
+							<!--// 로그인 전 -->
+							<!-- 로그인 후 -->
+							<!-- 
+							<div class="user_info">
+								<p>
+									매크로 안돌리는 회원님 <br>반갑습니다
+									<span class="txt_time">2019.09.01 12:33:32 <br>로그인 하셨습니다.</span>
+								</p>
+								<div class="extention">
+									<span class="remain">22분</span><button type="button" class="btn_line_gray btn_m"><span>로그인연장</span></button>
+								</div>
+								<div class="btns">
+									<button type="button" class="btn_primary_green btn_m"><span>회원정보수정</span></button>
+								</div>
+							</div> -->
+							<!--// 로그인 후 -->
+						</div>
+					</div>
+				</div>
+				<!--// GNB: 스크롤 후 -->
+			</div>
+		</nav>
+		<!-- 20190724수정 -->
+		
+		
+		<!-- 2019-06-17 : event banner -->
+		<div class="event_banner">
+			<div class="event_banner_slider">
+				<div>
+					<span class="icon1"><em class="hide">1</em></span><span class="text">Quick ! Quick ! 할인율조회</span>
+				</div>
+			</div>
+			<div class="event_banner_nav">
+				<span class="current"><em class="hide">1</em></span>
+				<span><em class="hide">2</em></span>
+				<span><em class="hide">3</em></span>
+				<span><em class="hide">4</em></span>
+				<span><em class="hide">5</em></span>
+			</div>
+		</div>
+		<!--// 2019-06-17 : event banner -->
+		<div class="gnb_util">
+			<!-- 마이페이지 버튼 -->
+			<button type="button" class="btn_mypage ui_btn_login"><span class="hide">login</span></button><!-- 로그인 전 노출 --><!-- 2019-07-03 : 개발요청으로 UX 변경 -->
+			<!-- <button type="button" class="txt_mypage ui_open_mypage"><span>홍길동 님</span></button> -->
+			<!--// 마이페이지 버튼 -->
+			<!-- 로그인 전 팝업 -->
+			<!-- <div class="gnb_layer_login ui_open_login">
+				<div class="inner">
+					<div class="login_inner_notify">
+						<ul class="list_dot">
+							<li>정보보호를 위해 로그인해 주세요.</li>
+							<li>회원가입 하시면 보다 다양한 정보 를 쉽고 빠르게 확인할 수 있습니다.</li>
+						</ul>
+					</div>
+					<div class="login_inner_box">
+						<input type="text" id="user_id03" title="아이디(이메일)" placeholder="아이디 (이메일) 비밀번호">
+						<input type="password" id="user_pw03" title="비밀번호" placeholder="비밀번호">					
+						<input type="checkbox" id="check_id"><label for="check_id"><span>자동로그인</span></label>
+						<div class="btns">
+							<button type="button" class="btn_primary_green btn_m"><span>로그인</span></button>
+							<button type="button" class="btn_primary_gray btn_m"><span>회원가입 </span></button>
+						</div>
+						<div class="search_user">
+							<a href="#"><span>아이디찾기</span></a><a href="#"><span>비밀번호찾기</span></a>
+						</div>
+						<div class="btn_sns">
+							<button type="button" class="btn_naver"><span class="hide">Naver</span></button>
+							<button type="button" class="btn_kakao"><span class="hide">kakao talk</span></button>
+							<button type="button" class="btn_facebook"><span class="hide">facebook</span></button>
+						</div>
+						
+						<div class="bottom_captcha">
+							<span class="notify">자동입력방지 문자를 입력해 주세요.</span>
+							<div class="info_captcha">
+								<span class="captcha"><img src="../img/@temp/@captcha.gif" alt=""></span>
+								<button type="button"><span>새로고침</span></button>
+								<button type="button" class="mgb0"><span>음성듣기</span></button>
+							</div>
+							<input type="text" id="captcha01" title="캡차" placeholder="자동입력 방지 문자">
+							<button type="button" class="btn_primary_green btn_m w100p"><span>로그인</span></button> 
+						</div> 
+					</div>
+				</div>
+			</div> -->
+			<!--// 로그인 전 팝업 -->
+			<!-- 로그인 후 팝업 -->
+			<div class="gnb_layer_user ui_open_mypage">
+				<div class="inner">
+					<ul class="gray_gb_tab ui_tab">
+						<li><button type="button" data-id="gnb_user_info1"><span>자금관리</span></button></li> <!-- 활성화 active -->
+						<li><button type="button" data-id="gnb_user_info2"><span>투자관리</span></button></li>
+						<li><button type="button" data-id="gnb_user_info3"><span>대출관리</span></button></li>
+						<li><button type="button" data-id="gnb_user_info4"><span>Credit</span></button></li>
+						<li class="active"><button type="button" data-id="gnb_user_info5"><span>회원정보</span></button></li><!-- 2019-05-31 -->
+					</ul>
+					<div class="ui_tab_cont">
+						<!-- 자금관리 -->
+						<div id="gnb_user_info1" class="user_content">
+							<dl class="user_content01">
+								<dt>출금계좌 : 111-111-111111 / 나이스은행</dt>
+								<dd>
+									<table class="tbl_amount">
+										<caption>자금관리</caption>
+										<tr>
+											<th>예치금 잔액</th>
+											<td>
+												<span class="amount">50,000,000</span> 원<button type="button" class="btn_line_gray btn_m"><span>상세내역조회</span></button>
+											</td>
+										</tr>
+										<tr>
+											<th>출금가능 금액</th>
+											<td>
+												<span class="amount">50,000,000</span> 원<button type="button" class="btn_primary_green btn_m"><span>출금요청</span></button>
+											</td>
+										</tr>
+									</table>
+								</dd>
+							</dl>
+						</div>
+						<!--// 자금관리 -->
+						<!-- 투자관리 -->
+						<div id="gnb_user_info2" class="user_content">
+							<dl class="user_content02">
+								<dt>
+									투자가능 잔액 : 700,000 원
+									<span class="btns">
+										<button type="button" class="btn_line_gray btn_s"><span>투자하기</span></button>
+										<button type="button" class="btn_line_gray btn_s"><span>자동투자</span></button>
+									</span>
+								</dt>
+								<dd>
+									<div class="chart"><img src="../img/@temp/@chart_gnb01.png" alt=""></div>
+									<table class="tbl_amount">
+										<caption>투자관리</caption>
+										<tr>
+											<th>예치금</th>
+											<td>
+												<span class="amount">50,000,000</span> 원
+											</td>
+										</tr>
+										<tr>
+											<th>투자금(모집중)</th>
+											<td>
+												<span class="amount">50,000,000</span> 원
+											</td>
+										</tr>
+										<tr class="font_green">
+											<th>투자금(완료)</th>
+											<td>
+												<span class="amount">50,000,000</span> 원
+											</td>
+										</tr>
+										<tr class="font_green">
+											<th>총 자산현황</th>
+											<td>
+												<span class="amount">50,000,000</span> 원
+											</td>
+										</tr>
+									</table>
+									<div class="btns">
+										<button type="button" class="btn_primary_green btn_m"><span>투자내역조회</span></button>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<!--// 투자관리 -->
+						<!-- 대출관리 -->
+						<div id="gnb_user_info3" class="user_content">
+							<dl class="user_content03">
+								<dt>
+									대출현황 : 1,000,000 원
+									<span class="btns">
+										<button type="button" class="btn_line_gray btn_s"><span>연체내역</span></button>
+									</span>
+								</dt>
+								<dd>
+									<div class="chart"><img src="../img/@temp/@chart_gnb02.png" alt=""></div>
+									<table class="tbl_amount">
+										<caption>대출관리</caption>
+										<tr>
+											<th>대출심사중</th>
+											<td>
+												<span class="amount">5</span> 건
+											</td>
+										</tr>
+										<tr>
+											<th>대출실행건</th>
+											<td>
+												<span class="amount">5</span> 건
+											</td>
+										</tr>
+										<tr>
+											<th>대출금액</th>
+											<td>
+												<span class="amount">50,000,000</span> 원
+											</td>
+										</tr>
+										<tr class="font_green">
+											<th>연체현황</th>
+											<td>
+												<span class="amount">5</span> 건
+											</td>
+										</tr>
+									</table>
+									<div class="btns">
+										<button type="button" class="btn_primary_green btn_m"><span>대출내역조회</span></button>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<!--// 대출관리 -->
+						<!-- Credit -->
+						<div id="gnb_user_info4" class="user_content">
+							<dl class="user_content04">
+								<dt>보유 Credit : 9,000 원</dt>
+								<dd>
+									<strong class="title">선물받으실 분 ID 확인</strong>
+									<div class="inp_btn">
+										<input type="text" id="receiver_id" title="선물받으실 분 ID" placeholder="받으실 분을 찾아주세요." readonly="readonly">
+										<button type="button" class="btn_line_gray btn_m"><span>회원검색</span></button>
+									</div>
+									<strong class="title">Credit 선물하기</strong>
+									<div class="inp_btn inp_error"><!-- 입력 오류시 inp_error -->
+										<input type="text" id="receiver_credit" title="Credit 선물하기" placeholder="선물하실 Credit을 입력하세요.">
+										<button type="button" class="btn_primary_green btn_m"><span>Credit 보내기</span></button>
+									</div>
+									<div class="inp_info">선물하실 Credit이 부족합니다.</div><!-- 입력 오류시 -->
+								</dd>
+							</dl>
+						</div>
+						<!--// Credit -->
+						<!-- 회원정보 -->
+						<div id="gnb_user_info5" class="user_content">
+							<dl class="user_content05">
+								<dt>
+									안전한 서비스 이용을 위해<br>정보 수정은 회원정보 관리 페이지에서만 가능합니다.
+								</dt>
+								<dd>
+									<strong class="txt_id">ID : te**#@test.com</strong>매크로 안돌리는 회원<br>
+									<button type="button" class="btn_primary_green btn_m"><span>회원정보수정</span></button>
+									<button type="button" class="btn_primary_gray btn_m"><span>로그아웃</span></button><!-- 2019-05-31 -->
+								</dd>
+							</dl>
+						</div>
+						<!-- 회원정보 -->
+					</div>
+				</div>
+			</div>
+			<!--// 로그인 후 팝업 -->
+			<div class="gnb_ranking">
+				<div class="ranking_board"><span class="num">1</span><span>홍길동 회사</span></div>
+				<dl class="list_ranking">
+					<dt>
+						<span class="title">수익률 높은 기업</span>
+						<span class="date">2019.04.16.11:31 기준</span>
+					</dt>
+					<dd>
+						<ol>
+							<li><a href="#">1. 홍길동회사</a></li>
+							<li><a href="#">2. 홍길동회사</a></li>
+							<li><a href="#">3. 홍길동회사</a></li>
+							<li><a href="#">4. 홍길동회사</a></li>
+							<li><a href="#">5. 홍길동회사</a></li>
+							<li><a href="#">6. 홍길동회사</a></li>
+							<li><a href="#">7. 홍길동회사</a></li>
+							<li><a href="#">8. 홍길동회사</a></li>
+							<li><a href="#">9. 홍길동회사</a></li>
+							<li><a href="#">10. 홍길동회사</a></li>
+						</ol>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</header>
+	<!--// HEADER -->
+	
+	<div id="fincent_contents">
+		<!-- Page title -->
+		<div class="contents_title back_transparent"><!-- 로그인전 메인 헤더: back_transparent -->
+			<h1><a href="#"><span class="hide">NICE abc</span></a></h1>
+			<button type="button" class="btn_allmenu ui_btn_allmenu"><span class="hide">전체메뉴</span></button>
+		</div>
+		<!--// Page title -->
+		<div class="inv_intro01">
+			<div class="text_wrap">
+				<h2>NICE그룹과 <br class="pc_none">함께하는<br class="m_none"> 안전한 <br class="pc_none">P2P투자의 시작</h2>
+				<div class="line_info">
+					<span class="line"></span>
+					<ul>
+						<li>빅데이터</li>
+						<li>AI</li>
+						<li>기업평가모형</li>
+						<li>채권심사</li>
+						<li>P2P 상품</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="inv_intro02 inv_intro">
+			<div class="inner_wrap">
+				<div class="text_wrap">
+					<h2>안정적인 <br class="pc_none">투자 수익률</h2>
+					<p>
+						시중은행 예·적금 이자보다 3~5배가 높으면서<br>
+						안정적인 P2P투자 수익을 경험해 보세요.
+					</p>
+					<ul class="list_dot m_none">
+						<li>2020년 04월 은행연합회, 저축은행중앙회 12개월 평균 금리</li>
+						<li>2020년 2분기 NICEbac 전체 상품 평균 수익률(12개월 세전)</li>
+					</ul>
+				</div>
+				<div class="img_wrap">
+					<img src="../img/pc/img_inv_intro02_pc@2x.png" alt="안정적인 투자 수익률" class="m_none">
+					<img src="../img/mobile/img_inv_intro02_m@2x.png" alt="안정적인 투자 수익률" class="pc_none">
+				</div>
+				<ul class="list_dot pc_none">
+					<li>2020년 04월 은행연합회, 저축은행중앙회 12개월 평균 금리</li>
+					<li>2020년 2분기 NICEbac 전체 상품 평균 수익률(12개월 세전)</li>
+				</ul>	
+			</div>
+		</div>
+		<div class="inv_intro03">
+			<div class="inner_wrap">
+				<div class="text_wrap_top">
+					<span>매월</span>
+					<strong>
+						<input type="text" placeholder="9,999">
+						<span class="tooltip"><em>투자금액</em></span>
+					</strong>
+					<span>만원을</span><br class="pc_none">
+					<strong>
+						<input type="text" placeholder="12" maxlength="2">
+						<span class="tooltip"><em>투자기간</em></span>
+					</strong>
+					<span>개월동안</span><br class="pc_none">
+					<span>7.03%</span>
+					<span>상품에 투자하면</span>
+				</div>
+
+				<div class="text_wrap_bottom">
+					<strong><span>내가 받을 수 있는 <br class="pc_none">수익금</span>은 얼마일까?</strong>
+					<div class="result_wrap">
+						<button><span>이자수익 계산</span></button>
+						<!-- <button style="background-color: #1aa87a;"><span>이자수익 계산</span></button> -->
+						<span class="pc_none">
+							<span>원</span><span>(세전)</span>
+						</span>
+						<p><span>999,999,999,999</span></p>
+						<!-- <p style="color: #1aa87a;">999,999,999,999</p> -->
+						<span class="m_none">
+							<span>원</span><span>(세전)</span>
+						</span>
+					</div>
+				</div>
+
+				<ul class="list_dot">
+					<li>이자수익은 NICEabc가 제공하는 상품 수익률에 입력하신 금액과 기간에 따라 별도 계산되며,<br class="m_none">
+						NICEabc에서 취급하는 상품의 실제 이자수익과는 차이가 있을 수 있습니다.
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="inv_intro04 inv_intro">
+			<div class="inner_wrap">
+				<div class="img_wrap m_none">
+					<img src="../img/pc/img_inv_intro04_pc@2x.png" alt="바로바로 쌓이는 이자">
+				</div>
+				<div class="text_wrap">
+					<h2>바로바로<br class="pc_none"> 쌓이는 이자</h2>
+					<p>
+						평균 60일의 짧은 투자기간!<br>
+						차곡차곡 쌓이는 이자의 즐거움을 느껴보세요.
+					</p>
+					<ul class="list_dot m_none">
+						<li>
+							투자유형 및 P2P투자 한도를 알아보세요!
+							<img class="ivs_pdt_des" src="../img/common/tooltips_icon.png">
+							<span class="tooltip_common" style="display: none;">
+								<dl>
+									<dt><strong>1. 일반 개인 투자자</strong></dt>
+									<dd>			 
+										- 총 한도 : 1,000만원<br>
+										- 동일차입자 한도 : 500만원
+									</dd>
+								</dl>
+								<dl>
+									<dt><strong>2. 소득적격 투자자</strong></dt>
+									<dd>		 
+										- 총 투자 한도 : 4,000만원<br>
+										- 동일차입자 한도 : 2,000만원
+									</dd>
+								</dl>
+								<dl>
+									<dt><strong>3. 개인 전문 및 법인 투자자</strong></dt>
+									<dd>
+										- 총 투자 한도 : 제한 없음<br>
+										(단 1개 투자상품 당 모집금액의 40%까지만 투자가능)
+									</dd>
+								</dl>
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="img_wrap pc_none">
+					<img src="../img/mobile/img_inv_intro04_m@2x.png" alt="바로바로 쌓이는 이자">
+				</div>
+				<ul class="list_dot pc_none">
+					<li>
+						투자유형 및 P2P투자 한도를 알아보세요!
+						<img class="ivs_pdt_des" src="../img/common/tooltips_icon.png">
+						<span class="tooltip_common" style="display: none;">
+							<dl>
+								<dt><strong>1. 일반 개인 투자자</strong></dt>
+								<dd>			 
+									- 총 한도 : 1,000만원<br>
+									- 동일차입자 한도 : 500만원
+								</dd>
+							</dl>
+							<dl>
+								<dt><strong>2. 소득적격 투자자</strong></dt>
+								<dd>		 
+									- 총 투자 한도 : 4,000만원<br>
+									- 동일차입자 한도 : 2,000만원
+								</dd>
+							</dl>
+							<dl>
+								<dt><strong>3. 개인 전문 및 법인 투자자</strong></dt>
+								<dd>
+									- 총 투자 한도 : 제한 없음<br>
+									(단 1개 투자상품 당 모집금액의 40%까지만 투자가능)
+								</dd>
+							</dl>
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="inv_intro05 inv_intro">
+			<div class="inner_wrap">
+				<div class="text_wrap">
+					<h2>자동투자의<br class="pc_none"> 복리효과</h2>
+					<p>
+						고객 맞춤형 상품에 시스템 자동투자!<br>
+						편리한 투자와 이자의 복리효과까지 경험해 보세요.
+					</p>
+					<ul class="list_dot m_none">
+						<li><a href="">NICEabc <span>자동투자를 설정</span>하세요! </a></li>
+					</ul>
+				</div>
+				<div class="img_wrap">
+					<img src="../img/pc/img_inv_intro05_pc@2x.png" alt="자동투자의 복리효과" class="m_none">
+					<img src="../img/mobile/img_inv_intro05_m@2x.png" alt="자동투자의 복리효과" class="pc_none">
+				</div>
+				<ul class="list_dot pc_none">
+					<li><a href="">NICEabc <span>자동투자를 설정</span>하세요! </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="inv_intro06">
+			<h2>믿을 수 있는 안심 투자</h2>
+			<p>
+				NICEabc는 NICE그룹의 <br class="pc_none">빅데이터와 AI 기업평가모형을 기반으로<br>
+				엄격한 채권심사를 통해 더욱 안정성 높은<br class="pc_none"> P2P투자 상품을 제공합니다.
+			</p>
+			<div class="link_wrap">
+				<dl>
+					<dt><a href=""><span>전자어음 투자</span></a></dt>
+					<dd>
+						<span>전자어음이란?</span>
+						<img class="ivs_pdt_des" src="../img/common/tooltips_icon.png">
+						<span class="tooltip_common" style="display: none;">
+							<dl>
+								<dd>			 
+									전자어음은 의뢰기업(차주)이 소지하고 있는 전자어음을 배서받아 할인해 준 P2P투자 상품입니다.
+								</dd>
+							</dl>
+							<dl>
+								<dt><strong>보증연계 상품</strong></dt>
+								<dd>		 
+									건설어음 발행사가 부도 시, 차입자의 결제 대금 일정금액 수령을 건설공제조합이 보증하는 P2P투자 상품입니다.
+								</dd>
+							</dl>
+						</span>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href=""><span>매출채권 투자</span></a></dt>
+					<dd>
+						<span>매출채권이란?</span>
+						<img class="ivs_pdt_des" src="../img/common/tooltips_icon.png">
+						<span class="tooltip_common" style="display: none;">
+							<dl>
+								<dd>			 
+									확정매출채권은 카드결제, 쇼핑몰 판매 또는 기업 간 거래등에서 발생하는 의뢰기업(차주)의 확정매출채권을 양도받아 선정산해준 P2P투자 상품입니다. 
+								</dd>
+							</dl>
+						</span>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="inv_intro07">
+			<div class="inner_wrap">
+				<div class="title m_none">
+					<h2>누적대출투자</h2>
+					<strong>999,999,999,999<span>원</span></strong>
+				</div>
+
+				<div class="info_list_wrap">
+					<span class="base_date">2020-09-18 10:55</span>
+					<div class="title pc_none">
+						<h2>누적대출투자</h2>
+						<strong>999,999,999,999<span>원</span></strong>
+					</div>
+
+					<ul>
+						<li>
+							<span>대출잔액</span>
+							<strong>999,999,999,999원</strong>
+						</li>
+						<li>
+							<span>상환율</span>
+							<strong>99,99%</strong>
+						</li>
+						<li>
+							<span>연체율</span>
+							<strong>0%</strong>
+						</li>
+						<li>
+							<span>평균수익률</span>
+							<strong>6.95%</strong>
+						</li>
+						<li>
+							<span>부실채권 매각건수</span>
+							<strong>0건</strong>
+						</li>
+					</ul>
+				</div>
+
+				<div class="link_wrap">
+					<a href="">회사소개</a>
+					<a href="">공시정보</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- quick -->
+	<div class="quick_wrap">
+		<button type="button" class="quick_btn"><span class="hide">quick menu 열기</span></button>
+		
+		<div class="quick_menu">
+			<ul class="menu">
+				<li class="invest_btn"><button type="button"><span>투자<br>알림</span></button></li>
+				<li><button type="button"><span>Live<br>Chat</span></button></li>
+			</ul>
+			<button class="close_btn"><span class="hide">quick menu 닫기</span></button>
+		</div>
+		
+		<div class="invest_pop">
+			<strong class="title">투자알림</strong>
+			<div class="pop_cont">
+				<p class="upper_txt">회원가입 없이 실시간 상품등록 정보를 확인</p>
+				<input type="text" id="" title="이름" placeholder="이름">
+				<input type="text" id="" title="핸드폰번호" placeholder="핸드폰번호">
+				<div class="agree">
+					<input type="checkbox" id="agree_check">
+					<label for="agree_check">개인정보 처리방침 동의(필수)</label>
+					<button type="button" class="agree_pop_btn"><span>자세히 보기</span></button>
+				</div>
+				<div class="bottom_btn">
+					<button type="button" class="btn_primary_gray btn_m"><span>알림해제</span></button>
+					<button type="button" class="btn_primary_green btn_m"><span>알림등록</span></button>
+				</div>
+			</div>
+			<a href="#" class="close"><span class="hide">닫기</span></a>
+		</div>
+		<button type="button" class="btn_goto_top" onclick="location.href='#'"><span class="hide">맨 위로 가기</span></button>
+	</div>
+	<!-- //quick -->
+	
+	<!-- FOOTER -->
+	<footer id="fincent_footer">
+		<div class="inner_wrap">
+			<span class="txt_catch">모든 기업을 연결하는 P2P 금융 플랫폼, NICEabc</span>
+			<div class="btns">
+				<button type="button" class="btn_footer_app"><span class="hide">Download on the App Store</span></button>
+				<button type="button" class="btn_footer_google"><span class="hide">Google play</span></button>
+			</div>
+
+			<div class="nav_wrap m_none">
+				<ul class="nav">
+					<li><a href="#">서비스 이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">투자자이용약관 </a></li>
+					<li><a href="#">대부거래기본약관</a></li>
+					<li><a href="#">법적고지</a></li>
+					<li><a href="#">윤리강령</a></li>
+				</ul>
+			</div>
+			<div class="nav_wrap pc_none">
+				<ul class="nav">
+					<li><a href="#">서비스 이용약관</a></li>
+					<li><a href="#">투자자이용약관 </a></li>
+					<li><a href="#">법적고지</a></li>
+				</ul>
+				<ul class="nav">
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">대부거래기본약관</a></li>
+					<li><a href="#">윤리강령</a></li>
+				</ul>
+			</div>
+
+			<div class="txt_address_top">
+				<span>고객센터 평일 10시~18시 (점심시간 12시~13시)</span>
+				<span>전화 02-6105-8000</span>
+				<span>팩스 02-6105-8019</span>
+				<span>대표이메일 <a href="mailto:cs@nicebp.co.kr">cs@nicebp.co.kr</a></span>
+				<span>사업제휴 <a href="mailto:hhshin@nicebp.co.kr">hhshin@nicebp.co.kr</a></span>
+			</div>
+
+			<div class="txt_address">
+				<div>
+					<span>NICE비즈니스플랫폼(주)</span>
+					<span>대표&nbsp;&nbsp;&nbsp;최정환</span>
+					<span>사업자등록번호&nbsp;&nbsp;&nbsp;458-87-01363</span>
+					<span><a href="javascript:ftcPopUpOpen();" style="text-decoration:underline;">통신판매업 2019-서울영등포-1336</a></span>
+					<span>주소&nbsp;&nbsp;&nbsp;서울특별시 영등포구 국회대로62길 21 8층</span>
+				</div>
+				<div>
+					<span>엔비피상생대부 주식회사</span>
+					<span>대표&nbsp;&nbsp;&nbsp;최정환</span>
+					<span>사업자등록번호&nbsp;&nbsp;&nbsp;771-88-01434</span>
+					<span><a href="javascript:fssPopUpOpen();" style="text-decoration:underline;">P2P연계대부 2019-금감원-1810</a></span>
+					<span>주소&nbsp;&nbsp;&nbsp;서울특별시 영등포구 국회대로62길 21 8층</span>
+				</div>
+				<p>NICE비즈니스플랫폼에서 제공하는 P2P투자상품은 <br class="pc_none">현행 금융관련 법령에 근거한 상품이 아니며, 투자원금과 수익을 <br class="pc_none">보장하지 않는 상품으로 투자손실에 대한 책임은 <br class="pc_none">모두 투자자에게 있습니다.</p>
+			</div>
+			
+			<div class="txt_loan">
+				<ul>
+					<li>
+						<span>대출금리</span>
+						<span>연24%이내</span>
+					</li>
+					<li>
+						<span>연체금리</span>
+						<span>대출금리+3%이내 (단, 연 24%이내)</span>
+					</li>
+					<li>
+						<span>중도상환 수수료</span>
+						<span>연2% 이내에서 부과 또는 면제가능<span class="m_none">(단, 전액 상환만 가능)</span></span>
+					</li>
+					<li class="pc_none">
+						<span>(단, 전액 상환만 가능)</span>
+					</li>
+				</ul>
+				<p>대출 시 신용등급 또는 개인신용평점이 하락할 수 있습니다.</p>
+				<span class="txt_catch">과도한 빚, 고통의 시작입니다.</span>
+			</div>
+			<button type="button" class="btn_fold_footer ui_fold_footer"><span><em class="hide">정보 열기/닫기</em></span></button>
+		</div>
+	</footer>
+	<!--// FOOTER -->
+</div>
+
+<script>
+	$(function(){
+		$('.text_wrap_top strong input').keydown(function(){
+			$(this).next().fadeOut();
+		});
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi"> 
+	<title>유동화 결과 팝업 NICE abc</title>
+	<link type="text/css" href="../css/common.css" rel="stylesheet">
+	<link type="text/css" href="../css/content.css" rel="stylesheet">
+	<script type="text/javascript" src="../js/ext/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../js/ext/jquery/jquery.placeholder-0.2.js"></script>
+	<script type="text/javascript" src="../js/ui_common.js"></script> <!-- 임시 js -->
+</head>
+<body>
+<!-- skipnavi -->
+<div id="skipnavi"> 
+   <a href="#fincent_contents">컨텐츠 바로가기 </a> 
+</div>
+<!-- //skipnavi -->  
+
+<div id="fincent_container">
+	
+	<!-- popup -->
+	<div class="fincent_popup ui_popup"><!-- 팝업 ui_popup -->
+		<section class="popup_inner01 wid02">
+			<h1>유동화 결과</h1>
+
+			<div class="popup_cont liq_result">
+				<p>
+					유동화 결과는 담당자님이 업로드 해주신 데이터를<br class="pc_none"> 기반으로<br class="m_none">	기업에서 매출채권 유동화를 신청하여<br class="pc_none"> 진행 중인 상태의 실시간 정보입니다.
+				</p>
+
+				<div class="base_date_wrap text_center">
+					<span>(업로드 : YYYY-MM-DD hh:mm)</span>
+					<!-- <span>조회 : YYYY-MM-DD hh:mm</span> -->
+				</div>
+
+				<div class="base_date_wrap text_right">
+					<!-- <span>(업로드 : YYYY-MM-DD hh:mm)</span> -->
+					<span>조회 : YYYY-MM-DD hh:mm</span>
+				</div>
+
+				<div class="liq_result_table_wrap">
+					<div class="table_line04_wrap">
+						<table class="table_line04">
+							<caption>파일 업로드</caption>
+							<colgroup>
+								<col style="width: 138px;">
+								<col style="width: 152px;">
+								<col style="width: 106px;">
+								<col style="width: 138px;">
+								<col style="width: 138px;">
+								<col style="width: 92px;">
+								<col style="width: 120px;">
+								<col style="width: 92px;">
+								<col style="width: 138px;">
+								<col style="width: 138px;">
+								<col style="width: 182px;">
+								<col style="width: 196px;">
+								<col style="width: 138px;">
+							</colgroup>
+							<thead>
+							<tr>
+								<th scope="col">유동화 신청일</th>
+								<th scope="col">유동화 진행상태</th>
+								<th scope="col">분할여부</th>
+								<th scope="col">신청금액(원)</th>
+								<th scope="col">잔여금액(원)</th>
+								<th scope="col">업체명</th>
+								<th scope="col">사업자번호</th>
+								<th scope="col">계약명</th>
+								<th scope="col">계약 시작일자</th>
+								<th scope="col">계약 종료일자</th>
+								<th scope="col">세금계산서 발행일자</th>
+								<th scope="col">지급금액(공급+부가세)</th>
+								<th scope="col">지급예정 일자</th>
+							</tr>
+							</thead>
+							<tbody>
+								<!-- 유동화 진행상태 > 대출중 -->
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>대출중</td>
+									<td>Y</td>
+									<td class="text_right">50,000,000</td>
+									<td class="text_right">50,000,000</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<!-- //유동화 진행상태 > 대출중 -->
+								<!-- 유동화 진행상태 > 양도확정 -->
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<!-- //유동화 진행상태 > 양도확정 -->
+								<!-- 반복 -->
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+								<tr>
+									<td>YYYY-MM-DD</td>
+									<td>양도확정</td>
+									<td>N</td>
+									<td class="text_right">100,000,000</td>
+									<td class="text_right">0</td>
+									<td class="text_left">홍길동회사</td>
+									<td>111-11-11111</td>
+									<td class="text_left">테스트 1</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td>YYYY-MM-DD</td>
+									<td class="text_right">지급금액(공급+부가세)</td>
+									<td>지급예정일자</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		
+			<div class="bottom_btn">
+				<button type="button" class="btn_primary_dgray"><span>닫기</span></button>
+				<button type="button" class="btn_primary_dgreen"><span>Excel 다운로드</span></button>
+			</div>
+			<button type="button" class="btn_close_popup ui_close_popup"><span class="hide">창닫기</span></button><!-- 팝업닫기 ui_close_popup -->
+		</section>		
+	</div>
+	<!-- //popup -->
+	
+	<button type="button" class="btn_primary_dgreen ui_open_popup w100p"><span>유동화 결과</span></button><!-- 팝업열기 ui_open_popup -->
+</div>
+</body>
+</html>

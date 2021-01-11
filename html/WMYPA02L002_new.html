@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi"> 
+	<title>투자관리 My page NICE abc</title>
+	<link type="text/css" href="../css/common.css" rel="stylesheet">
+	<link type="text/css" href="../css/content.css" rel="stylesheet">
+	<script type="text/javascript" src="../js/ext/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../js/ext/jquery/jquery.placeholder-0.2.js"></script>
+	<script type="text/javascript" src="../js/ui_common.js"></script> <!-- 임시 js -->
+</head>
+
+<body>
+<!-- skipnavi -->
+<div id="skipnavi"> 
+   <a href="#fincent_contents">컨텐츠 바로가기</a> 
+</div>
+<!-- //skipnavi -->  
+
+<div id="fincent_container">	
+	<!-- popup -->
+	<div class="fincent_popup ui_popup"><!-- 팝업 ui_popup -->
+		<section class="popup_inner01">
+			<h1 style="letter-spacing: -0.25px;">원리금수취권 양도 신청</h1>
+			<div class="popup_cont sob_popup_cont">
+				<p class="upper_password">
+					<span class="font_green font_extrabold">세기정공 1호</span><span class="s_txt font_extrabold" style="margin-top: 5px;">원리금수취권을 양도 하시겠습니까?</span><!-- font_bold -->
+				</p>
+				<!-- <table class="table_line03 table_col">
+					<caption>원리금수취권 양도 신청</caption>
+					<tbody>
+						<tr>
+							<th class="td_wid_pc">투자일자</th><td class="text_right" style="border-top: none;">2020-08-01</td>
+						</tr>
+						<tr>
+							<th>상환예정일</th><td class="text_right">2020-08-31</td>
+						</tr>
+						<tr>
+							<th>투자금액</th><td class="text_right">100,000,000원</td>
+						</tr>
+						<tr>
+							<th>매각금액</th><td class="text_right">100,000,000원</td>
+						</tr>
+					</tbody>
+				</table> -->
+				<div class="table_line04_wrap">
+					<table class="table_line04 m_table trf_table">
+						<caption>원리금수취권 양도 신청</caption>
+						<!-- <colgroup>
+							<col style="width: 175px;">
+						</colgroup> -->
+						<tbody>
+							<tr>
+								<th>투자일자</th><td class="text_right">2020-08-01</td>
+							</tr>
+							<tr>
+								<th>상환예정일</th><td class="text_right">2020-08-31</td>
+							</tr>
+							<tr>
+								<th>투자금액</th><td class="text_right">100,000,000원</td>
+							</tr>
+							<tr>
+								<th>매각금액</th><td class="text_right">100,000,000원</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="tou_box ui_investment_toggle">
+					<div class="agree_tit_box">
+						<div class="investment_tit" style="padding-left: 0;">
+							<input type="checkbox" id="assignment_agree" class="round_check" name="reservation_agree">
+							<label for="assignment_agree" class="font_extrabold" style="margin-top: 0;">원리금수취권 양도(매각)에 대한<br>투자자 이용약관을 확인하였습니다.</label>
+							<button type="button" class="toggle_btn">전문보기</button>
+						</div>
+						
+						<!-- 이용약관 -->
+						<div class="investment_cont" style="display: none;">
+							<div class="scroll">약관내용<br>약관내용<br>약관내용<br>약관내용</div>
+						</div>
+					</div>
+					<div class="tou_agree_box">
+						<p class="tou_agree_cont">투자하신 투자금은 양도하신 원리금수취권이 양수된 후 지급됩니다.</p>
+						<p class="tou_agree_cont">투자수수료와 투자수익은 양수도일을 기준으로 일할 계산됩니다.</p>
+						<p class="tou_agree_cont">양도하신 원리금수취권이 양수되지 않을 경우 상품의 상환예정일에 투자 수수료와 투자수익이 정산됩니다.</p>
+						<p class="tou_agree_cont">본인이 양도하신 원리금수취권 매각 상품에는 재투자가 불가합니다.</p>
+						<p class="tou_agree_cont">원리금수취권을 매각(양도) 후 매각 취소는 불가합니다.</p>
+					</div>
+				</div>
+
+				<div class="agree_sign font_extrabold">
+					원리금수취권 양도인 {홍길동}은(는)<br>	 
+					채권 양도에 대한 내용을 모두 숙지하였으며,<br class="pc_none">
+					그 내용에 대해
+				</div>
+				<input type="text" class="inp_m agree_inp" title="동의함" placeholder="이해하고 동의하였음">
+			</div>
+
+			<div class="bottom_btn">
+				<button type="button" class="btn_primary_dgray"><span>닫기</span></button>
+				<button type="button" class="btn_primary_dgreen"><span>양도 신청</span></button>
+			</div>
+			<button type="button" class="btn_close_popup ui_close_popup"><span class="hide">창닫기</span></button><!-- 팝업닫기 ui_close_popup -->
+		</section>		
+	</div>
+	<!-- //popup -->
+
+	<button type="button" class="btn_primary_dgreen ui_open_popup w100p"><span>채권 매각</span></button><!-- 팝업열기 ui_open_popup -->
+</div>
+</body>
+</html>

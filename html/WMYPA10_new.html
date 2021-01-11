@@ -1,0 +1,491 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi"> 
+	<title>자금관리  my page NICE abc</title> <!-- 임시 title -->
+	<link type="text/css" href="../css/common.css" rel="stylesheet">
+	<link type="text/css" href="../css/content.css" rel="stylesheet">
+	<script type="text/javascript" src="../js/ext/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../js/ext/jquery/jquery.placeholder-0.2.js"></script>
+	<script type="text/javascript" src="../js/ui_common.js"></script> <!-- 임시 공통 UI js -->
+	<script type="text/javascript" src="../js/page/WMYPA01M001.js"></script> <!-- 임시 페이지 UI js -->
+</head>
+<body>
+<!-- skipnavi -->
+<div id="skipnavi"> 
+   <a href="#inner_contents">컨텐츠 바로가기 </a> 
+</div>
+<!-- //skipnavi -->  
+
+<!-- popup -->
+<div class="fincent_popup">
+</div>
+<!-- //popup -->
+
+<div id="fincent_container">
+	<!-- HEADER -->
+	<header id="fincent_header">
+	</header>
+	<!--// HEADER -->
+	
+	<div id="fincent_contents">	
+		<!-- content comment -->
+		<div class="contents_comment">	
+			<div class="comment">
+				중소기업 금융환경 개선을 위한
+				<span class="title">NICE abc</span>
+			</div>
+		</div>	
+		<!-- //content comment -->
+		<!-- Indicate -->
+		<div class="contents_indicate">
+			<ul>
+				<li><span class="home"><em class="hide">Home</em></span></li>
+				<li><span>My page</span></li>
+				<li><span>정산관리</span></li>
+			</ul>
+		</div>
+		<!--// Indicate -->
+		<!-- Page title -->
+		<div class="contents_title">
+			<h2 class="title"><a href="#">정산관리<span class="btn"><em class="hide">메뉴 열림/닫힘</em></span></a></h2>
+			<nav class="nav_contents">
+				<ul>
+					<li><a href="#">자금관리</a></li>
+					<li><a href="#">투자관리</a></li>
+					<li><a href="#">자동투자관리</a></li>
+					<li><a href="#">연체관리</a></li>
+					<li><a href="#">대출관리</a></li>
+					<li><a href="#">관심기업관리</a></li>
+					<li><a href="#">credit</a></li>
+					<li><a href="#">쿠폰함</a></li>
+					<li><a href="#">회원정보</a></li>
+				</ul>
+			</nav>
+			<button type="button" class="btn_back"><span class="hide">뒤로가기</span></button>
+			<button type="button" class="btn_allmenu ui_btn_allmenu"><span class="hide">전체메뉴</span></button>	
+		</div>
+		<!--// Page title -->
+		<div id="inner_contents" class="mypage">
+			<div class="search_invest ajt_search_invest">
+				<div class="id_list">
+					<span class="txt">가맹점 ID</span>
+					<select class="sel_sy01 sel_wid" id="" title="가맹점 ID">
+						<option>A11-11-11234</option>
+						<option>B11-11-11234</option>
+						<option>C11-11-11234</option>
+					</select>
+				</div>
+				<div class="radio_list range_list m_none">
+					<input type="radio" id="range_01" name="range">
+					<label for="range_01">신용카드</label>
+					<input type="radio" id="range_02" name="range">
+					<label for="range_02">개인사업자</label>
+					<input type="radio" id="range_03" name="range">
+					<label for="range_03">기타</label>
+					<input type="radio" id="range_04" name="range">
+					<label for="range_04">전체합계</label>
+				</div>
+				<div class="range_list pc_none">
+					<span class="txt">범위</span>
+					<select class="sel_sy01 sel_wid" id="" title="가맹점 ID">
+						<option>신용카드</option>
+						<option>개인사업자</option>
+						<option>기타</option>
+						<option>전체합계</option>
+					</select>
+				</div>
+				<button type="button" class="btn_primary_dgreen" id="btn_search"><span style="font-family: 'NanumGothic'; font-weight: 700;">조회하기</span></button>
+			</div>
+
+			<div class="scroll_tab">
+				<ul class="tab_green ajt_tab" id="ulTabMenus">
+					<li class="active" value="0"><button type="button"><span>선정산</span></button></li><!-- 활성시 active -->
+					<li value="1"><button type="button"><span>매출</span></button></li>
+				</ul>
+			</div>
+			<!-- 선정산 -->
+			<div class="adjustmentTab">
+				<div class="adjustment_con">
+					<!-- 달력 -->
+					<div class="adjustment_calendar_con">
+						<div>오늘</div>
+						<div>2020년 07월</div>
+						<div>달력</div>
+					</div>
+					<!-- //달력 -->
+
+					<!-- 날짜 클릭시 선정산 -->
+					<div class="day_adjustment_wrap djt_ajt_wrap">
+						<div class="day_title m_none">2020.07.29</div>
+						<div class="total_amount_box">
+							<span class="tit">입금 금액</span>
+							<span class="txt">
+								<span>총</span>13,739,019<span>원</span>
+							</span>
+						</div>
+						<div class="adjustment_gray">
+							<div class="bg_gray_box">
+								<dl>
+									<dt><strong>매출</strong></dt>
+									<dd>
+										<span>발생기간</span>
+										<span>20.07.24 ~ 20.07.28</span>
+									</dd>
+								</dl>
+								<ul>
+									<!-- 거래금액 -->
+									<li>
+										<dl>
+											<dt>거래금액</dt><dd>14,264,090<span class="s_font">원</span></dd>
+										</dl>
+										<button class="list_btn">
+											<span class="btn"><em class="hide">메뉴 열림/닫힘</em></span>
+										</button>
+									</li>
+									<!-- 거래금액내역 -->
+									<li class="default_open" style="display: none;">
+										<dl>
+											<dt>취소금액</dt><dd>- 88,100<span class="xs_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>PG수수료</dt><dd>- 437,754<span class="xs_font">원</span></dd>
+										</dl>
+									</li>
+									<!-- 정상예정금액 -->
+									<li>
+										<dl>
+											<dt>PG정산예정금액</dt><dd>13,746,254<span class="s_font">원</span></dd>
+										</dl>
+									</li>
+								</ul>
+							</div>
+
+							<div class="bd_green_box">
+								<ul>
+									<!-- 선정산금액 -->
+									<li>
+										<dl>
+											<dt>
+												<strong>선정산 금액</strong>
+												<img class="ivs_pdt_des" src="../img/common/tooltips_icon.png">
+												<span class="tooltip_common" style="display: none;">
+													PG정산예정금액 - 선정산 금액 - 서비스 이용금액
+												</span>
+											</dt>
+											<dd><strong style="color: #21a16d;">10,990,000<span style="display: inline-block; font-weight: 700; padding-left: 2px;">원</span></strong></dd>
+										</dl>
+										<button class="list_btn">
+											<span class="btn"><em class="hide">메뉴 열림/닫힘</em></span>
+										</button>
+									</li>
+									<!-- 수수료, 할일료 -->
+									<li class="default_open" style="display: none;">
+										<dl>
+											<dt>서비스 이용금액</dt><dd>- 7,266<span class="xs_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>수수료(1.5%)</dt><dd>1,355<span class="xs_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>할인료(6.5%)</dt><dd>5,871<span class="xs_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>대출일수</dt><dd>3일</dd>
+										</dl>
+									</li>
+									<!-- 반환예정잔여금 잔여금반환예정일 -->
+									<li>
+										<dl>
+											<dt>반환 예정 잔여금</dt><dd>2,749,019<span class="s_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>잔여금 반환 예정일</dt><dd>20.07.28</dd>
+										</dl>
+									</li>
+								</ul>
+
+								<ul>
+									<!-- 선정산금액 -->
+									<li>
+										<dl>
+											<dt>
+												<strong>금일 반환 잔여금</strong>
+												<img class="ivs_pdt_des" src="../img/common/tooltips_icon.png">
+												<span class="tooltip_common" style="display: none;">
+													2020.06.28 선정산 받으신 금액의 잔여금 입금 정보입니다.
+												</span>
+											</dt>
+											<dd><strong style="color: #21a16d;">2,749,019<span style="display: inline-block; font-weight: 700; padding-left: 2px;">원</span></strong></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt>기준일</dt><dd>20.07.12</dd>
+										</dl>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+					<!-- //날짜 클릭시 선정산 -->
+				</div>
+
+				<!-- 선정산 정보가 없는 경우 -->
+				<div class="adjustment_con">
+					<!-- 달력 -->
+					<div class="adjustment_calendar_con">
+						<div>오늘</div>
+						<div>2020년 07월</div>
+						<div>달력</div>
+					</div>
+					<!-- //달력 -->
+
+					<!-- 날짜 클릭시 선정산 -->
+					<div class="day_adjustment_wrap djt_ajt_wrap">
+						<div class="day_title m_none">2020.07.29</div>
+						<div class="empty">선정산 정보가 없습니다.</div>
+					</div>
+					<!-- //날짜 클릭시 선정산 -->
+				</div>
+				<!-- 선정산 정보가 없는 경우 -->
+
+				<!-- 선정산 일시정지 경우 -->
+				<div class="adjustment_con">
+					<!-- 달력 -->
+					<div class="adjustment_calendar_con">
+						<div>오늘</div>
+						<div>2020년 07월</div>
+						<div>달력</div>
+					</div>
+					<!-- //달력 -->
+
+					<!-- 날짜 클릭시 선정산 -->
+					<div class="day_adjustment_wrap djt_ajt_wrap">
+						<div class="day_title m_none">2020.07.29</div>
+						<div class="total_amount_box">
+							<span class="tit">입금 금액</span>
+							<span class="txt">
+								<span>총</span>13,739,019<span>원</span>
+							</span>
+						</div>
+						<div class="adjustment_gray">
+							<div class="bg_gray_box">
+								<dl>
+									<dt><strong>매출</strong></dt>
+									<dd>
+										<span>발생기간</span>
+										<span>20.07.24 ~ 20.07.28</span>
+									</dd>
+								</dl>
+								<ul>
+									<!-- 거래금액 -->
+									<li>
+										<dl>
+											<dt>거래금액</dt><dd>14,264,090<span class="s_font">원</span></dd>
+										</dl>
+										<button class="list_btn">
+											<span class="btn"><em class="hide">메뉴 열림/닫힘</em></span>
+										</button>
+									</li>
+									<!-- 거래금액내역 -->
+									<li class="default_open" style="display: none;">
+										<dl>
+											<dt>취소금액</dt><dd>- 88,100<span class="xs_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>PG수수료</dt><dd>- 437,754<span class="xs_font">원</span></dd>
+										</dl>
+									</li>
+									<!-- 정상예정금액 -->
+									<li>
+										<dl>
+											<dt>PG정산예정금액</dt><dd>13,746,254<span class="s_font">원</span></dd>
+										</dl>
+									</li>
+								</ul>
+							</div>
+
+							<div class="bd_green_box">
+								<ul>
+									<!-- 선정산금액 -->
+									<li>
+										<dl>
+											<dt>
+												<strong style="color: #ff4e23;">선정산 일시정지</strong>
+											</dt>
+											<dd></dd>
+										</dl>
+									</li>
+									<!-- 반환예정잔여금 잔여금반환예정일 -->
+									<li>
+										<dl>
+											<dt>취소발생일</dt><dd>2020.07.28</dd>
+										</dl>
+										<dl>
+											<dt>취소 건수</dt><dd>50건</dd>
+										</dl>
+										<dl>
+											<dt>취소 금액</dt><dd>5,000,000,000<span class="s_font">원</span></dd>
+										</dl>
+									</li>
+								</ul>
+
+								<ul>
+									<!-- 선정산금액 -->
+									<li>
+										<dl>
+											<dt>
+												<strong>금일 반환 잔여금</strong>
+												<img class="ivs_pdt_des" src="../img/common/tooltips_icon.png">
+												<span class="tooltip_common" style="display: none;">
+													2020.06.28 선정산 받으신 금액의 잔여금 입금 정보입니다.
+												</span>
+											</dt>
+											<dd><strong style="color: #21a16d;">-</strong></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt>기준일</dt><dd>-</dd>
+										</dl>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+					<!-- //날짜 클릭시 선정산 -->
+				</div>
+				<!-- //선정산 일시정지 경우 -->
+
+			</div>
+			<!-- //선정산 -->
+
+			<!-- 매출 -->
+			<div class="adjustmentTab" style="display: none;">
+				<div class="adjustment_con">
+					<!-- 달력 -->
+					<div class="adjustment_calendar_con">
+						<div>오늘</div>
+						<div>2020년 07월</div>
+						<div>달력</div>
+					</div>
+					<!-- //달력 -->
+
+					<!-- 날짜 클릭시 매출 -->
+					<div class="day_adjustment_wrap djt_sale_wrap">
+						<div class="day_title m_none">2020.07.29</div>
+						<div class="total_amount_box">
+							<span class="tit">매출 금액</span>
+							<span class="txt">
+								<span>총</span>13,739,019<span>원</span>
+							</span>
+						</div>
+						<div class="adjustment_gray">
+							<div class="bg_gray_box">
+								<ul>
+									<li>
+										<strong style="font-weight: 800;">매출</strong>
+										<dl>
+											<dt>잔여금 반환 예정일</dt><dd>20.07.28</dd>
+										</dl>
+										<dl>
+											<dt>거래금액</dt><dd>14,264,090<span class="s_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>취소건수</dt><dd>N건</dd>
+										</dl>
+										<dl>
+											<dt>PG수수료</dt><dd>436,754<span class="s_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>PG정산예정금액</dt><dd>13,746,254<span class="s_font">원</span></dd>
+										</dl>
+									</li>
+									<li>
+										<strong style="font-weight: 800;">매출 상세</strong>
+										<dl>
+											<dt>신용카드</dt><dd>14,264,090<span class="s_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>계좌이체</dt><dd>64,090<span class="s_font">원</span></dd>
+										</dl>
+										<dl>
+											<dt>기타</dt><dd>0<span class="s_font">원</span></dd>
+										</dl>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- 날짜 클릭시 매출 -->
+				</div>
+			</div>
+			<!-- //매출 -->
+		</div>
+	</div>
+	<!-- FOOTER -->
+	<footer id="fincent_footer">
+	</footer>
+	<!--// FOOTER -->
+</div>
+
+<script>
+	$(function(){
+		//탭
+		$("#ulTabMenus li").click(function() {
+		changeContentsTab(this);
+		});
+
+		var initPage = function() {
+			selectContentsTab(0);
+		};
+
+		var changeContentsTab = function(tab) {
+			var _index = tab.value;
+
+			$("#ulTabMenus li").removeClass(" active");
+			$(tab).addClass(" active");
+			selectContentsTab(_index);
+		};
+
+		var isPossesionAuth = function() {
+			var _lgnYn = common.getCookie("loginYn");
+
+			if( !_lgnYn || (_lgnYn && _lgnYn == "N") ) {
+				return false;
+			}
+
+			return true;
+		};
+
+		var selectContentsTab = function(index) {
+			var tabs = $(".adjustmentTab");
+			tabs.hide();
+			if( tabs && tabs.length > 0 ) {
+				var _tab = $(tabs[index]);
+				_tab.show();
+			}
+		};
+
+		//아코디언
+		$(".list_btn").click(function(){
+			$(this).toggleClass('opened');
+			$(this).parent().next().slideToggle();
+		});
+
+		// 물음표 호버
+		$(".ivs_pdt_des").hover(function(){
+			$(this).next(".tooltip_common").show();
+		},function(){
+			$(this).next(".tooltip_common").hide();
+		});
+	});
+</script>
+</body>
+</html>

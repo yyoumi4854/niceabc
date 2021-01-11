@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi"> 
+	<title>회원정보 NICE abc</title>
+	<link type="text/css" href="../css/common.css" rel="stylesheet">
+	<link type="text/css" href="../css/content.css" rel="stylesheet">
+	<script type="text/javascript" src="../js/ext/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../js/ext/jquery/jquery.placeholder-0.2.js"></script>
+	<script type="text/javascript" src="../js/ui_common.js"></script> <!-- 임시 js -->
+</head>
+<body>
+<!-- skipnavi -->
+<div id="skipnavi"> 
+   <a href="#fincent_contents">컨텐츠 바로가기 </a> 
+</div>
+<!-- //skipnavi -->  
+
+<div id="fincent_container">	
+	
+	<!-- popup -->
+	<div class="fincent_popup ui_popup"><!-- 팝업 ui_popup -->
+		<section class="popup_inner01 idpw_section">
+			<h1>비밀번호 찾기</h1>
+			<div class="popup_cont" >
+				<!-- tab -->
+				<ul class="tab_green ui_tab">
+					<li class="active"><button type="button" data-id="indv_tab"><span>개인회원</span></button></li>
+					<li><button type="button" data-id="entp_tab"><span>기업회원</span></button></li>
+				</ul>
+				<!-- tab_cont -->
+				<div class="ui_tab_cont">
+					<!-- 개인회원   -->
+					<div class="idpw_cont" id="indv_tab">
+						<!-- 휴대폰 인증 후 -->
+						<div class="idpw_completion_cont pw_completion">
+							<strong class="text_center" style="padding: 0;">
+								아이디에 등록된 아래 이메일로 임시비밀번호가 발송됩니다.
+							</strong>
+							<div class="box_gray">
+								<ul>
+									<li>
+										<strong class="title">tes01@test.com</strong>
+									</li>
+								</ul>
+							</div>
+							<ul class="list_hyphen dot">
+								<li>수신 이메일 변경은 고객센터(02-6105-8000)로 문의해 주세요.</li>
+							</ul>
+							<button type="button" class="btn_primary_sgray"><span>임시비밀번호 발송</span></button>
+							<!-- <button type="button" class="btn_primary_dgreen"><span>임시비밀번호 발송</span></button> -->
+						</div>
+						<!-- //휴대폰 인증 후 -->
+					</div>
+					
+					<!-- 기업회원   -->
+					<div class="idpw_cont" id="entp_tab">	
+						<!-- 휴대폰 인증 후 -->
+						<div class="idpw_completion_cont pw_completion">
+							<strong class="text_center" style="padding: 0;">
+								아이디에 등록된 아래 이메일로 임시비밀번호가 발송됩니다.
+							</strong>
+							<div class="box_gray">
+								<ul>
+									<li>
+										<strong class="title">tes01@test.com</strong>
+									</li>
+								</ul>
+							</div>
+							<ul class="list_hyphen dot">
+								<li>수신 이메일 변경은 고객센터(02-6105-8000)로 문의해 주세요.</li>
+							</ul>
+							<!-- <button type="button" class="btn_primary_sgray"><span>임시비밀번호 발송</span></button> -->
+							<button type="button" class="btn_primary_dgreen"><span>임시비밀번호 발송</span></button>
+						</div>
+						<!-- //휴대폰 인증 후 -->
+					</div>
+				</div>
+			</div>
+			<!-- 아이디 찾기 -->
+			<!-- //아이디 찾기 -->
+			<div class="bottom_btn" style="position: relative; background-color: #fff;">
+				<button type="button" class="btn_primary_dgray" style="width: 100%;"><span>닫기</span></button>
+			</div>
+			<button type="button" class="btn_close_popup ui_close_popup"><span class="hide">창닫기</span></button><!-- 팝업닫기 ui_close_popup -->
+		</section>		
+	</div>
+	<!-- //popup -->
+
+	<button type="button" class="btn_primary_dgreen ui_open_popup w100p"><span>비밀번호 찾기</span></button><!-- 팝업열기 ui_open_popup -->
+</div>
+</body>
+</html>
